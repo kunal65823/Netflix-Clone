@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="main">
+        <nav>
+            <span><img src="logo (1).png" alt="Logo"></span>
+            <div>
+                <button class="language"><i class="fa-solid fa-language"></i> English</button>
+                <button class="sign-button">Sign In</button>
+            </div>
+        </nav>
+
+        <div class="box">
+
+        </div>
+
+        <div class="hero">
+            <h1>Unlimited movies, shows, and more</h1>
+            <h3>Starts at ₹149. Cancel at any time. </h3>
+            <button>Finish Sign-up <i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+    <hr>
+
+    <section class="trending">
+        <h2>Trending Now</h2>
+
+        <div class="slider-wrapper">
+            <button class="arrow left" onclick="scrollLeft()">&#10094;</button>
+
+            <div class="movie-row" id="movieRow">
+                <img src="StrangerThing.webp" alt="movie">
+                <img src="Kapil.webp" alt="movie">
+                <img src="jollyllb.webp" alt="movie">
+                <img src="rashmika.webp" alt="movie">
+                <img src="StrangerThing.webp" alt="movie">
+                <img src="Kapil.webp" alt="movie">
+                <img src="Kapil.webp" alt="movie">
+                <img src="Kapil.webp" alt="movie">
+                <img src="Kapil.webp" alt="movie">
+                <img src="Kapil.webp" alt="movie">
+            </div>
+
+            <button class="arrow right" onclick="scrollRight()">&#10095;</button>
+        </div>
+
+        <div class="more-response">
+            <h2>More reasons to join</h2>
+            <div class="boxes">
+                <div class="container">
+                    <h2>Enjoy on your TV</h2>
+                    <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                </div>
+                <div class="container">
+                    <h2>Download your shows to watch offline</h2>
+                    <p>Save your favourites easily and always have something to watch.</p>
+
+
+                </div>
+                <div class="container">
+                    <h2>Watch everywhere</h2>
+                    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                </div>
+                <div class="container">
+                    <h2>Create profiles for kids</h2>
+                    <p>Send kids on adventures with their favourite characters in a space made just for them — free with
+                        your membership.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="question-container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="questions">
+
+                <div class="qts-boxes">
+                    <button>What is Netflix?</button>
+                    <svg viewBox="0 0 36 36" width="36" height="36" data-icon="PlusLarge"
+                        data-icon-id=":Rjal6hlalailqp6:" aria-hidden="true"
+                        class="default-ltr-iqcdef-cache-1ulhx3w e1jjil14" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        role="img">
+                        <path fill="currentColor" fill-rule="evenodd" d="M17 17V3h2v14h14v2H19v14h-2V19H3v-2z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+
+                <div class="qts-boxes">
+                    <button>How much does Netflix cost?</button>
+                    <svg viewBox="0 0 36 36" width="36" height="36" data-icon="PlusLarge"
+                        data-icon-id=":Rjal6hlalailqp6:" aria-hidden="true"
+                        class="default-ltr-iqcdef-cache-1ulhx3w e1jjil14" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        role="img">
+                        <path fill="currentColor" fill-rule="evenodd" d="M17 17V3h2v14h14v2H19v14h-2V19H3v-2z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+
+                <div class="qts-boxes">
+                    <button>Where can I watch?</button>
+                    <svg viewBox="0 0 36 36" width="36" height="36" data-icon="PlusLarge"
+                        data-icon-id=":Rjal6hlalailqp6:" aria-hidden="true"
+                        class="default-ltr-iqcdef-cache-1ulhx3w e1jjil14" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        role="img">
+                        <path fill="currentColor" fill-rule="evenodd" d="M17 17V3h2v14h14v2H19v14h-2V19H3v-2z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+
+                <div class="qts-boxes">
+                    <button>How do I change plans?</button>
+                    <svg viewBox="0 0 36 36" width="36" height="36" data-icon="PlusLarge"
+                        data-icon-id=":Rjal6hlalailqp6:" aria-hidden="true"
+                        class="default-ltr-iqcdef-cache-1ulhx3w e1jjil14" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        role="img">
+                        <path fill="currentColor" fill-rule="evenodd" d="M17 17V3h2v14h14v2H19v14h-2V19H3v-2z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+
+                </div>
+                <div class="qts-boxes">
+                    <button>What can I watch on Netflix?</button>
+                    <svg viewBox="0 0 36 36" width="36" height="36" data-icon="PlusLarge"
+                        data-icon-id=":Rjal6hlalailqp6:" aria-hidden="true"
+                        class="default-ltr-iqcdef-cache-1ulhx3w e1jjil14" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        role="img">
+                        <path fill="currentColor" fill-rule="evenodd" d="M17 17V3h2v14h14v2H19v14h-2V19H3v-2z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+
+                <div class="qts-boxes">
+                    <button>Is Netflix good for kids?</button>
+                    <svg viewBox="0 0 36 36" width="36" height="36" data-icon="PlusLarge"
+                        data-icon-id=":Rjal6hlalailqp6:" aria-hidden="true"
+                        class="default-ltr-iqcdef-cache-1ulhx3w e1jjil14" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        role="img">
+                        <path fill="currentColor" fill-rule="evenodd" d="M17 17V3h2v14h14v2H19v14h-2V19H3v-2z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" sign-upbtn">
+            <button>Finish Sign-up<i class="fa-solid fa-angle-right"></i></button>
+        </div>
+
+
+
+    </section>
+
+    <footer class="footer">
+        <h3>Questions? Call <a href="">000-800-919-1743</a> </h3>
+        <div class="footer-container">
+
+            <ul class="footer-col">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Speed Test</a></li>
+            </ul>
+
+            <ul class="footer-col">
+                <li><a href="#">Help Centre</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Legal Notices</a></li>
+            </ul>
+
+            <ul class="footer-col">
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Ways to Watch</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Only on Netflix</a></li>
+            </ul>
+
+            <ul class="footer-col">
+                <li><a href="#">Media Centre</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div>
+            <button class="language-footer"><i class="fa-solid fa-language"></i> English</button>
+            <div class="copyright">
+                <p>Netflix India</p>
+        </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
